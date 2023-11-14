@@ -1,5 +1,6 @@
 import homePage from "./home";
 import {initial, remove} from "./pageLoad";
+import loadMenu from "./menu";
 import './style.css';
 
 // console.log("HELLO WORLD");
@@ -17,10 +18,6 @@ function setActive(val)
     val.classList.add("active");
 }
 
-
-
-homePage(content);
-
 home.addEventListener("click", function()
 {
     remove();
@@ -32,6 +29,7 @@ menu.addEventListener("click", function()
 {
     remove();
     setActive(menu);
+    loadMenu(content);
 });
 
 contact.addEventListener("click", function()
@@ -39,3 +37,5 @@ contact.addEventListener("click", function()
     remove();
     setActive(contact);
 });
+
+homePage(content);

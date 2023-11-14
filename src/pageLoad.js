@@ -36,9 +36,6 @@ function remove()
 {
     const initial = document.querySelector("#initial");
     const content = document.querySelector("#content");
-    
-    console.log(content.childNodes);
-
     content.childNodes.forEach( nodes=> {
         if(nodes != initial)
         {
