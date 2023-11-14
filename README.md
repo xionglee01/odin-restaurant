@@ -1,7 +1,7 @@
 # odin-restaurant
 A restaurant website created using HTML, CSS, and JavaScript. Bundled with webpack.
 
-Images used in project:
+Images used in project: <br>
 Photo by Valeria Boltneva from Pexels: https://www.pexels.com/photo/ham-burger-with-vegetables-1639557/
 
 Photo by Engin Akyurt from Pexels: https://www.pexels.com/photo/shallow-focus-photo-of-hamburger-2282532/
