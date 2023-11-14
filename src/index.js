@@ -1,6 +1,7 @@
 import homePage from "./home";
 import {initial, remove} from "./pageLoad";
 import loadMenu from "./menu";
+import contactPage from "./contact";
 import './style.css';
 
 // console.log("HELLO WORLD");
@@ -36,6 +37,7 @@ contact.addEventListener("click", function()
 {
     remove();
     setActive(contact);
+    contactPage(content);
 });
 
-homePage(content);
+contactPage(content);
